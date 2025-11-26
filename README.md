@@ -51,12 +51,13 @@ The height of each bar represents the sales volume.Shows which region is perform
 
 
 3.Top 5 Sales by Region – Pie Chart
+
 This pie chart shows the top 5 highest revenue regions.Each slice represents a region’s percentage share in total sales.
 
  Easy to compare regional sales visually. Helps focus on key markets contributing maximum sales.Gives a quick snapshot of regional revenue distribution.
 
 
-4. Sales vs Profit – Clustered Chart
+4. Sales vs Profit – Scatter Chart
 
 This chart compares Sales and Profit for each category:
 
