@@ -1,86 +1,108 @@
 # Elevate-Lab-Task8
 Simple Sales Dashboard Design
 
-This dashboard provides an interactive and visual summary of company sales performance.
+This dashboard is designed to help users analyze Sales, Profit, Regions, Categories, and Monthly Trends in a single view. 
 
-It helps users analyze sales trends, regional performance, product categories, and profit insights using slicers and multiple charts.
-
-
-1. Dashboard Filters (Slicers)
-
-These allow you to filter and view the dashboard data dynamically:
-
-Customer Name
-
-Order Month
-
-Category
-
-Region
-
-Month / Year
+It uses slicers, bar charts, pie charts, line charts, and donut charts to present business insights.
 
 
-2.Sales by Region (Bar Chart)
+ 1. Dashboard Filters (Slicers)
 
-Shows total sales for each region such as Central, South, Oceania, Africa, North, West, etc.
+These slicers let the user interact with the dashboard and filter the visuals:
 
-Helps identify the best-performing region.Shows regions with low sales contribution
+A.Customer Name Slicer
 
-Useful for geographical performance comparison
+Allows filtering the entire dashboard based on the selected customer.
+
+B. Order Month Slicer
+
+Used to show data for a specific month (e.g., January, February, etc.).
+
+C. Category Slicer
+
+Filters the data based on product category:
+
+1.Technology
+
+2.Furniture
+
+3.Office Supplies
 
 
- 3.Top 5 Sales by Region (Pie Chart)
+E. Region Slicer
 
-Displays the top 5 regions contributing the highest sales.
+Allows viewing sales for a chosen region such as Central, West, South, Africa, etc.
 
-Which region has the largest share.Visual comparison using color-coded slices
+F. Month/Year Slicer
 
-Quick focus on key profitable regions
+Used to compare sales across a specific month or year.
 
-
-4. Sales vs Profit (Category Comparison Chart)
-
-Shows the relationship between sales and profit for each category:
-
-Furniture
-
-Office Supplies
-
-Technology
+These slicers make your dashboard fully interactive.
 
 
 
-Whether a category is high-sales but low-profit.Identifies profitable categories.Helps in strategic product focus
+2. Sales by Region – Bar Chart
+
+This bar chart displays the total sales amount for every region (Central, South, Oceania, Africa, North, etc.).
+
+The height of each bar represents the sales volume.Shows which region is performing the best.
+
+ Helps identify underperforming regions. Useful for expanding or reducing business operations.
 
 
-5. Sales by Month (Line Chart)
+3.Top 5 Sales by Region – Pie Chart
+This pie chart shows the top 5 highest revenue regions.Each slice represents a region’s percentage share in total sales.
 
-Shows the monthly trend of sales across the year.Seasonal fluctuationsHigh and low-performing months
-
-Helps in forecasting and planning
-
-
-6.Sales by Category (Donut Chart)
-
-Shows sales distribution across major categories:
-
-Furniture
-
-Office Supplies
-
-Technology
+ Easy to compare regional sales visually. Helps focus on key markets contributing maximum sales.Gives a quick snapshot of regional revenue distribution.
 
 
-Which category generates maximum revenue.Balanced or uneven sales distribution
+4. Sales vs Profit – Clustered Chart
 
-Supports inventory and marketing decisions
+This chart compares Sales and Profit for each category:
+
+A.Furniture
+
+B.Office Supplies
+
+C.Technology
+
+ Helps find categories with high sales but low profit.Shows which category generates maximum profit.
+ 
+ Useful for strategic decision-making (pricing, promotion, inventory).
+
+Example:
+
+If Technology has high sales AND high profit → best performing.
+
+If Furniture has high sales but low profit → pricing needs review.
 
 
-Sales Dashboard helps
 
-✔ Understand how sales and profits vary by region, category, and time
-✔ Identify top-performing regions
-✔ Analyze monthly sales trends
-✔ Compare sales vs profit to support business decision-making
-✔ Use slicers to explore data interactively
+5.Sales by Month – Line Chart
+
+
+Displays how sales change month-by-month throughout the year.Shows the trend of customer buying behavior.
+
+ Identifies peak sales months.Shows seasonal patterns (sales increase during festivals/special events).
+ 
+ Helps with forecasting, inventory, and budgeting.
+
+
+6. Sales by Category – Donut Chart
+
+Chart Name: Sales by Category
+
+The donut chart compares total sales across three major categories:
+
+A.Technology
+
+B.Furniture
+
+C.Office Supplies
+
+
+Each category is shown as a slice of the donut. Quick understanding of category-wise contribution.
+
+ Helps know which product line is strongest. Useful for planning marketing and promotions.
+
+
