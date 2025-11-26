@@ -91,8 +91,6 @@ Displays how sales change month-by-month throughout the year.Shows the trend of 
 
 6. Sales by Category – Donut Chart
 
-Chart Name: Sales by Category
-
 The donut chart compares total sales across three major categories:
 
 A.Technology
